@@ -1,0 +1,2 @@
+scp -i <path-to-your-key.pem> <local-file> <username>@<aws-public-ip>:<destination-path>
+scp -i server3.pem aws-codedeploy-sample-tomcat-dependabot-maven-org.springframework-spring-core-6.0.15.zip ubuntu@3.87.186.170:/home/ubuntu
