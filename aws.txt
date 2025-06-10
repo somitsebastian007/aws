@@ -1,0 +1,13 @@
+Create Application Load Balancer:
+================================
+
+1. Use default inputs. Give inputs to below:
+    ==> user defined name for LB
+    ==> Select all AZ's
+    ==> Create a new security group & assign to LB
+        --> Create a inbound rule with Type 'HTTP' & Source 'Anywhere'
+    ==> Create target group
+        --> Target type: Instance
+        --> Target group name: target-server  # user defined
+        --> Port: 80 # default
+        --> Register Instances: Add the ec2 servers and mention port as 80
