@@ -11,3 +11,9 @@ Create Application Load Balancer:
         --> Target group name: target-server  # user defined
         --> Port: 80 # default
         --> Register Instances: Add the ec2 servers and mention port as 80
+
+
+Points:
+========
+1. You can monitor the health of instance in Target Group. LB only routes traffic to healthy nodes
+2. You can add more rules under 'Listeners and rules'
