@@ -1,0 +1,14 @@
+Infrastructure as Code (IaC)
+=============================
+
+Infrastructure as Code (IaC) is a way to manage and provision computer data centers through machine-readable 
+configuration files, rather than physical hardware or interactive configuration tools.
+
+Example:
+Instead of clicking around in a cloud dashboard to create a server, you write a script 
+(like in Terraform or AWS CloudFormation) that says:
+
+resource "aws_instance" "web" {
+  ami           = "ami-123456"
+  instance_type = "t2.micro"
+}
