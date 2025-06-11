@@ -17,3 +17,8 @@ Points:
 ========
 1. You can monitor the health of instance in Target Group. LB only routes traffic to healthy nodes
 2. You can add more rules under 'Listeners and rules'
+
+
+ECS:
+===
+Nginx image: https://gallery.ecr.aws/nginx/nginx
