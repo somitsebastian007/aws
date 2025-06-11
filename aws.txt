@@ -21,4 +21,4 @@ Points:
 
 ECS:
 ===
-Nginx image: https://gallery.ecr.aws/nginx/nginx
+Nginx image: https://gallery.ecr.aws/nginx/nginx (Repo) => public.ecr.aws/nginx/nginx:stable-perl (image)
