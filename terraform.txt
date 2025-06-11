@@ -12,3 +12,25 @@ resource "aws_instance" "web" {
   ami           = "ami-123456"
   instance_type = "t2.micro"
 }
+
+IAC Advantages:
+==============
+1. Manage infrastructure (networks, servers, storage, etc.) using code.
+2. Automates the process of provisioning and configuring infrastructure.
+3. Ensures consistency and repeatability across environments.
+
+IAC tools
+========
+=> Ansible
+=> puppet
+=> Terraform
+=> Chef
+=> CloudFormation
+
+
+HCL Language:
+=============
+-> Declarative
+-> Human Readable format
+-> configuration files tell what to do
+-> Define Dependencies between resources

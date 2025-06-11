@@ -22,3 +22,33 @@ Points:
 ECS:
 ===
 Nginx image: https://gallery.ecr.aws/nginx/nginx (Repo) => public.ecr.aws/nginx/nginx:stable-perl (image)
+
+
+ECS Core Concepts and Terminology
+=================================
+Before diving into the details, let's understand the fundamental building blocks of ECS:
+
+Task Definition
+        Blueprint describing how containers should launch
+        Defines settings like ports, images, CPU, memory, and environment variables
+        Similar to a Docker Compose file but specific to ECS
+
+Tasks
+        Running containers with settings defined in Task Definitions
+        Can contain single or multiple containers
+        Represents actual running instances of your application
+
+Services
+        Maintain specified number of running tasks
+        Handle load balancing and scaling
+        Ensure high availability of applications
+
+Clusters
+        Logical grouping of container instances
+        Can span multiple Availability Zones
+        Provide resource management and scaling capabilities
+        
+Container Instances
+        EC2 instances registered to ECS clusters
+        Run Docker daemon and ECS agent
+        Execute tasks assigned by the scheduler
